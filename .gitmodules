@@ -1,0 +1,6 @@
+[submodule "vcpkg"]
+	path = vcpkg
+	url = git@github.com:microsoft/vcpkg.git
+[submodule "td"]
+	path = td
+	url = git@github.com:tdlib/td.git
