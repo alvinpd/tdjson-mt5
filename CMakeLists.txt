@@ -1,13 +1,13 @@
 # Telegram wrapper for MetaTrader
 #
 # Install dependencies using vcpkg:
-#   .\vcpkg install openssl:x64-windows zlib:x64-windows
+#   .\vcpkg install gperf:x64-windows openssl:x64-windows zlib:x64-windows
 #
 # Configure build:
-#   cmake -A x64 ..
+#   cmake -A x64 -B build -S .
 #
 # Build:
-#   cmake --build . --config Release
+#   cmake --build build --config Release
 
 cmake_minimum_required(VERSION 3.14)
 set(CMAKE_TOOLCHAIN_FILE ${CMAKE_CURRENT_SOURCE_DIR}/vcpkg/scripts/buildsystems/vcpkg.cmake
